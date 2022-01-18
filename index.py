@@ -38,7 +38,7 @@ def register():
   win2.title("Registration")
   Label(win2,text = "Welcom to Registration Page").grid(row = 0,column=1)
   Label(win2,text = "Name : ").grid(row =2)
-  Label(win2,text = "User Name : ").grid(row = 4)
+  Label(win2,text = "UserName : ").grid(row = 4)
   Label(win2,text = "Password : ").grid(row = 6)
 
   e1 = Entry(win2)
